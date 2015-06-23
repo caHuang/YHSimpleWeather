@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Yolk Huang. All rights reserved.
 //
 
+#import <TSMessage.h>
 #import "AppDelegate.h"
 #import "ViewController.h"
 
@@ -20,6 +21,8 @@
   viewController.view.backgroundColor = [UIColor whiteColor];
   self.window.rootViewController = viewController;
   [self.window makeKeyAndVisible];
+  
+  [TSMessage setDefaultViewController:self.window.rootViewController];
   return YES;
 }
 
