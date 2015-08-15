@@ -13,7 +13,7 @@ PODS:
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
   - TSMessages (0.9.12):
-    - HexColors
+    - HexColors (~> 2.2.0)
 
 DEPENDENCIES:
   - LBBlurredImage
@@ -28,6 +28,6 @@ SPEC CHECKSUMS:
   Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
   Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  TSMessages: 2a52642128d7ab15b46930c810b9c9403a2b58f3
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2
