@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D074EECA19769C290C26DE79 /* libPods-YHSimpleWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F67C91E68408A3DFD2E9FC /* libPods-YHSimpleWeather.a */; };
+		F00DFCBF1B7F82510043D85D /* YHCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = F00DFCBE1B7F82510043D85D /* YHCondition.m */; };
 		F0D877C01B396A3100E2FFB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D877BF1B396A3100E2FFB1 /* main.m */; };
 		F0D877C31B396A3100E2FFB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D877C21B396A3100E2FFB1 /* AppDelegate.m */; };
 		F0D877C61B396A3100E2FFB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D877C51B396A3100E2FFB1 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 		26F67C91E68408A3DFD2E9FC /* libPods-YHSimpleWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHSimpleWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D52BA422E2A21CFB004C09 /* Pods-YHSimpleWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHSimpleWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHSimpleWeather/Pods-YHSimpleWeather.debug.xcconfig"; sourceTree = "<group>"; };
 		B0162CB4BD5675C74EC6BC64 /* Pods-YHSimpleWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHSimpleWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHSimpleWeather/Pods-YHSimpleWeather.release.xcconfig"; sourceTree = "<group>"; };
+		F00DFCBD1B7F82510043D85D /* YHCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCondition.h; sourceTree = "<group>"; };
+		F00DFCBE1B7F82510043D85D /* YHCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCondition.m; sourceTree = "<group>"; };
 		F0D877BA1B396A3100E2FFB1 /* YHSimpleWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHSimpleWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D877BE1B396A3100E2FFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D877BF1B396A3100E2FFB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 				F0D877C21B396A3100E2FFB1 /* AppDelegate.m */,
 				F0D877C41B396A3100E2FFB1 /* ViewController.h */,
 				F0D877C51B396A3100E2FFB1 /* ViewController.m */,
+				F00DFCBD1B7F82510043D85D /* YHCondition.h */,
+				F00DFCBE1B7F82510043D85D /* YHCondition.m */,
 				F0D877CA1B396A3100E2FFB1 /* Images.xcassets */,
 				F0D877CC1B396A3100E2FFB1 /* LaunchScreen.xib */,
 				F0D877BD1B396A3100E2FFB1 /* Supporting Files */,
@@ -274,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00DFCBF1B7F82510043D85D /* YHCondition.m in Sources */,
 				F0D877C61B396A3100E2FFB1 /* ViewController.m in Sources */,
 				F0D877C31B396A3100E2FFB1 /* AppDelegate.m in Sources */,
 				F0D877C01B396A3100E2FFB1 /* main.m in Sources */,
