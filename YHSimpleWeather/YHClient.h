@@ -6,7 +6,10 @@
 //  Copyright (c) 2015 Yolk Huang. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <ReactiveCocoa.h>
+
+@import Foundation;
+@import CoreLocation;
 
 @interface YHClient : NSObject
 
